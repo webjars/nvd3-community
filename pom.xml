@@ -52,6 +52,19 @@
         <upstream.version>1.1.15-beta</upstream.version>
         <upstream.url>https://raw.github.com/novus/nvd3/v${upstream.version}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
+        <requirejs>
+            {
+                "paths": {
+                    "nvd3": "nv.d3"
+                },
+                "shim": {
+                    "nvd3": {
+                        "deps" : ["d3js"],
+                        "exports": "nv"
+                    }
+                }
+            }
+        </requirejs>
     </properties>
     
     <build>
