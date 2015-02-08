@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>nvd3-community</artifactId>
-    <version>1.7.0</version>
+    <version>1.7.1-SNAPSHOT</version>
     <name>NVD3 (community)</name>
     <description>WebJar for NVD3</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/nvd3-community</url>
         <connection>scm:git:https://github.com/webjars/nvd3-community.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/nvd3-community.git</developerConnection>
-        <tag>nvd3-community-1.7.0</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <dependencies>
